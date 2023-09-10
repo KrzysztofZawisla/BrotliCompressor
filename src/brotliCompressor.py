@@ -25,5 +25,3 @@ if bool(args.outfile):
 else: 
     with open(args.file + ".br", "wb") as data:
         data.write(compressedBytes)
-        
-sys.exit(0)
